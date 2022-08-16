@@ -10,7 +10,7 @@ public class 거스름돈 {
         int money = Integer.parseInt(br.readLine());
 
         int cnt = 0;
-        
+
         do {
             if (money >= 500) {
                 money -= 500;

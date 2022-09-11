@@ -11,13 +11,14 @@ public class 숫자의표현 {
         for (int i = 1; i <= n; i++) {
             int sum = i;
 
-            if (i + 1 > n) {
-                break;
-            }
             if (i == n / 2 + 1) break;
 
             for (int j = i + 1; j <= n; j++) {
                 sum += j;
+
+                if (sum > n) {
+                    break;
+                }
 
                 if (sum == n) {
                     cnt++;

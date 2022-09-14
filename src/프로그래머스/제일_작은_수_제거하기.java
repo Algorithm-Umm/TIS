@@ -1,10 +1,5 @@
 package 프로그래머스;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 public class 제일_작은_수_제거하기 {
     public static void main(String[] args) {
         int[] arr = {4, 3, 2, 1};
